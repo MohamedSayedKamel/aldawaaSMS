@@ -1,0 +1,383 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SMS Service",
+		"_postman_id": "7b0cd0c2-9245-08b3-312a-3256edd526e9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendOtp",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "01.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "en",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to send 4 Digits OTP to Saudi Numbers Only"
+			},
+			"response": []
+		},
+		{
+			"name": "sendOtp copy",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "01.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "en",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to send 4 Digits OTP to Saudi Numbers Only"
+			},
+			"response": []
+		},
+		{
+			"name": "verfiyOtp",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "02.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "ar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "otp",
+							"value": "2069",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to verfiy the OTP"
+			},
+			"response": []
+		},
+		{
+			"name": "sendNewPassword",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "03.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "ar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to send new password sms message"
+			},
+			"response": []
+		},
+		{
+			"name": "sendGiftCardSms",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "04.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "ar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "senderName",
+							"value": "خليل رمان",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "receiverName",
+							"value": "محمد علي",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "200",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://2828.tel",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to send gift card sms"
+			},
+			"response": []
+		},
+		{
+			"name": "sendNotifyMeSms",
+			"request": {
+				"url": "http://webservices.al-dawaa.com/sms/api.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ClientSecret",
+						"value": "S5RhkakGxUb5qTU647mNUKxDfXdYgqsvwotJvMMNgQIkQhisE5n4mWHoU",
+						"description": ""
+					},
+					{
+						"key": "ClientCode",
+						"value": "ECOMMERCE",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "action",
+							"value": "05.0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lang",
+							"value": "ar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "countryCode",
+							"value": "966",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "0543371579",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://2828.tel",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "This API is used to send notify me sms when the item is avilable again"
+			},
+			"response": []
+		}
+	]
+}
